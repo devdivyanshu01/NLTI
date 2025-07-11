@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLATNLTI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <button id="theme-toggle">🌙</button>
+
+
+  <header class="navbar" style="background-color: black;">
+    <div class="container">
+      <h1 class="logo">CLATNLTI</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#crash">Crash Course</a></li>
+          <li><a href="#videos">Demo Videos</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero enhanced">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Unlock Your Law Career with <span>India’s Leading Mentors</span></h2>
+      <p>Crash Courses, Mentorship, Mock Tests — All in One Platform</p>
+      <a href="#crash" class="btn-primary" >Explore Crash Course</a>
+    </div>
+  </section>
+
+  <section class="courses" id="courses">
+    <div class="container">
+      <h3 style="text-align: center; margin-bottom: 30px;">Our Featured Courses</h3>
+      <div class="course-grid">
+        <div class="course-card highlight">
+          <h4>CLAT Regular Batch <span class="tag">Popular</span></h4>
+          <p>In-depth classes, daily mentorship & weekly mocks.</p>
+          <a href="regular.html" class="btn-secondary">View Course</a>
+        </div>
+        <div class="course-card">
+          <h4>AILET + CLAT Combo</h4>
+          <p>Dual-prep program with law-specific mock series.</p>
+          <a href="combo.html" class="btn-secondary">Coming Soon</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="crash" class="crash-course enhanced">
+    <div class="crash-container">
+      <div class="badge"> Limited Seats</div>
+      <h2>CLAT Crash Course 2026</h2>
+      <p><strong><span id="countdown">05d 12h 34m</span></strong> left to register!</p>
+      <ul class="features">
+        <li>2 live classes/subject</li>
+        <li>Mocks with detailed feedback</li>
+        <li>Daily doubt clearing sessions</li>
+        <li>Start: 1 Aug 2025 | Duration: 30 days</li>
+      </ul>
+      <a href="crash.html" class="btn-primary">Register Now</a>
+    </div>
+    <div class="crash-img"><img src="assets/images/crash2.jpg" alt="Crash Course"></div>
+  </section>
+
+  <section class="demo-videos" id="videos">
+    <div class="container">
+      <h3 style="text-align: center; margin-bottom: 50px;">Watch Demo Classes</h3>
+      <div class="video-grid">
+        <div class="video-card" onclick="openModal('https://youtu.be/WhvV8Z7zSO4?si=Jx_K5TePUcIEl3gq')">
+          <img src="https://i.ytimg.com/an_webp/WhvV8Z7zSO4/mqdefault_6s.webp?du=3000&sqp=CIjuv8MG&rs=AOn4CLAbEYjswRCtneJ7UDq1CX9eNOWyvw" alt="Assumption" />
+          <p>Assumption | Falcon Batch</p>
+        </div>
+        <div class="video-card" onclick="openModal('https://youtu.be/DTL3jt1aRdA?si=yzniybzeXdB023sj')">
+          <img src="https://i.ytimg.com/an_webp/DTL3jt1aRdA/mqdefault_6s.webp?du=3000&sqp=CMC1vsMG&rs=AOn4CLDibYGuafQ5DZgUdXk8gk6UwK0BfA" alt="CRitical Reasoning" />
+          <p>Critical Reasoning | NLSAT</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="video-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <iframe id="modal-video" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h3 style="text-align: center; margin-bottom: 20px; margin-top: 50px;">What Our Students Say</h3>
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <p>“
+            NLTI helped me a lot throughout my clat and ailet prep. First of all the mocks are amazing. The diversity they offer you helps you get a hold of the exam and also helps you to test various approaches. Besides that, the mentorship and guidance is truly wonderful, people here tell you such minute things that make a lot of difference. I am really grateful to you guys. Thanks a lot!!!
+        ”</p>
+          <span>- Ashmit, AIR 38 CLAT 2023</span>
+        </div>
+        <div class="testimonial">
+          <p>“
+            I think one of the most important things about the entire preparation process is first of all good guidance, and second of all great mocks. And who better to guide you that students who've been through the same ordeal and that too not too long ago. The guidance I received from NLTI Mentors was just amazing. It was their insight that gave my preparation the direction it needed. Furthermore, it is very hard to come across good mocks that are based on a correct flow of logic and NLTI provided me with exactly those.
+        ”</p>
+          <span>- Arshiya Gupta, AIR 3 AILET 2023</span>
+        </div>
+        <div class="testimonial">
+          <p>“
+            NLTI has played a significant role in my CLAT/AILET journey. Their mentors helped me navigate through a path that previously seemed to be shrouded in ambiguity, and provided insight and strategic advice as to how I could better myself. Adding to this invaluable assistance were their challenging yet reliable mocks and sectionals that helped me reflect on my shortcomings while also providing the practice I needed to overcome them. To top it all off NLTI helped me connect with several dedicated aspirants that boosted not just my knowledge but also my morale. NLTI's presence in my preparation has truly been of great help.
+        ”</p>
+          <span>- Divas Upadhyay, AIR 6 AILET & AIR 38 CLAT 2024</span>
+        </div>
+        <div class="testimonial">
+          <p>“
+           NLTI played a pivotal role in my CLAT and AILET journey, offering unparalleled mentorship and guidance. Interacting with mentors who have cleared such exams and secured top ranks added a valuable cherry on top. Their challenging mock tests enhanced my reasoning skills significantly. Truly, NLTI proved to be a game-changing partner.
+            ”</p>
+          <span>- Ishaan Sehrawat, AIR 7 AILET & AIR 127 CLAT 2024</span>
+        </div>
+        <div class="testimonial">
+          <p>“
+            I was a part of the Super 30 Course by NLTI. I practiced NLTI Mocks on a regular basis, and while going through the explanations, I received a genuine insight into where I had gone wrong while attempting. All in all, NLTI played a significant role in my CLAT &amp; AILET preparation.
+        ”</p>
+          <span>- Pranav Mittal, AIR 93 CLAT 2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 20px;">About <span style="color: #DA7B93;"><u>Us</u></span></h2>
+      <p>
+        National Law Training Institute (NLTI) is an initiative that was started by NLSIU Students in 2022 with an aim to provide honest and comprehensive CLAT and NLSAT mentorship with accessible prices for everyone.
+        As CLAT & NLSAT Toppers and students who got into NLS, we are cognizant of the exact circumstances that your exam preparation entails. Not too long ago, we were also getting low mock scores, getting distressed with the burden of parental and societal pressures over us. We know what it is like to give CLAT & NLSAT, to think if you are making the right decision, and to worry if you will ever be able to crack one of the top National Law Universities. Surprisingly, with the help of friends and family, we made it into the National Law School, Bangalore, the dream, the Harvard of the East.
+        We, at NLTI, are here to give back to the CLAT & NLSAT community by being the aspirants’ best friend, their guide, and their mentor. We are here to teach you concepts, help you analyze your mocks, boost your CLAT preparation, and be there by your side in all your ups and downs. One thing that we regret not having during our preparation is a mentor who can guide us throughout and at NLTI we are solving the exact problem by connecting you with the students of NLSIU directly and giving you the opportunity of having them as your mentors. Our initiative has produced over 200 selections in the Top National Law Universities. Our CLAT and AILET 2024 batch witnessed 6 students in the Top-10 ranks in AILET 2024, which is unprecedented in the industry within such a short duration. Come join NLTI and be a part of this revolution!</p>
+      <div id="teachers">
+        <h3 style="text-align: center; margin-top: 50px;">Teachers</h3>
+        <div class="teachers" style="margin-top: 20px;">
+          <div class="teacher">
+            <h3>Anish Gupta</h3>
+            <p>AIR 17 CLAT 2021.
+              Founder : National Law Traning Institute.
+            </p>
+          </div>
+          <div class="teacher">
+            <h3>Anish Gupta</h3>
+            <p>AIR 17 CLAT 2021.
+              Founder : National Law Traning Institute.
+            </p>
+          </div>
+          <div class="teacher">
+            <h3>Raghav Sethi</h3>
+            <p>UNIVERSITY OF DELHI.
+              Co-Founder : National Law Traning Institute.
+            </p>
+          </div>
+          <div class="teacher">
+            <h3>Prem Vinod Parvani</h3>
+            <p>AIR 1 LSAT, AIR 2 AILET & AIR 16 CLAT 2022.
+            </p>
+          </div>
+          <div class="teacher">
+            <h3>Kevin Preji</h3>
+            <p>AIR 19 CLAT 2022.
+            </p>
+          </div>
+          <div class="teacher">
+            <h3>Abhinav Somani</h3>
+            <p>AIR 1 CLAT 2023.
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
+  </section>
+
+
+  <div id="contact" style="margin-top: 50px;">
+    <h2 style="text-align: center; text-decoration: underline #DA7B93;">Contact</h2>
+  <section class="contact">
+    <div class="loc">
+      <hr href="https://clatnlti.com"><img src="data:image/png;base64,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" alt="NLTI" style="max-width: 150px; max-height: 150px;"></a>
+      <div class="info">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg><p>3256, Sector 44D, Chandigarh 160047</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg><p>(+91) 9876142144</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+</svg>
+<p> clat.nlti@gmail.com</p>
+</div>
+    </div>
+    <div class="mail">
+      <input id="name" type="name" required placeholder="Name" pattern="\w{3,16}">
+      <input id="email" type="email" required placeholder="Email" pattern=".+@example\.com">
+      <input id="phone" type="tel" required placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      <input id="message" type="text" required placeholder="Message">
+      <button type="submit" onclick="sendMail()" onMouseOver="this.style.backgroundColor='#2E151B'" onMouseOut="this.style.backgroundColor='#DA7B93'">Submit</button>
+      <div class="follow">
+        <a href="https://www.youtube.com/channel/UC-962_m_libplMX26NZevfA"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+          <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+        </svg></a>
+        <a href="https://t.me/lawNLTI"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+        </svg></a>
+        <a href="https://www.linkedin.com/company/national-law-training-institute/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg></a>
+        <a href="https://www.instagram.com/nlti.clat/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg></a>
+      </div>
+    </div>
+
+  </section>
+</div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 National Law Training Institute.</p>
+    </div>
+  </footer>
+</body>
+</html>
